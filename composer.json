@@ -1,0 +1,21 @@
+{
+    "name": "laravel/Crypto",
+    "keywords": ["Encrypt", "Decrypt", "laravel"],
+    "description": "Encrypt and Decrypt value",
+    "license": "Orisma",
+    "authors": [
+        {
+            "name": "Orisma",
+            "email": "developer@orisma.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Crypto\\": "src/Laravel/Crypto/"
+        }
+    },
+    "minimum-stability": "stable"
+}
