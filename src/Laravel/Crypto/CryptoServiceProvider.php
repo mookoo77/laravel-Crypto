@@ -31,7 +31,7 @@ class CryptoServiceProvider extends \Illuminate\Support\ServiceProvider
     public function register()
     {
         $this->app['crypto'] = $this->app->share(function($app) {
-            return new Meta(Config::get('crypto'));
+            return new Crypto(Config::get('crypto'));
         });
     }
 
